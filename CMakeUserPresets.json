@@ -1,0 +1,48 @@
+{
+    "version": 7,
+    "configurePresets": [
+        {
+            "name": "base",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "generator": "Ninja",
+            "hidden": true,
+            "cacheVariables": {
+                "CMAKE_EXPORT_COMPILE_COMMANDS":"ON"
+            }
+        },
+        {
+            "name": "debug",
+            "hidden": true,
+            "inherits":["base"],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE":"Debug"
+            }
+        },
+        {
+            "name": "clang-debug",
+            "inherits":["debug"],
+            "displayName": "Use clang to compile",
+            "description": "Linux/MacOs",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER":"clang",
+                "CMAKE_CXX_COMPILER":"clang++",
+                "CMAKE_CXX_FLAGS":"-stdlib=libc++",
+                "CMAKE_EXE_LINKER_FLAGS":"-stdlib=libc++"
+            }
+        },
+        {
+            "name": "release",
+            "hidden": true,
+            "inherits":["base"],
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE":"Release"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "clang-debug",
+            "configurePreset": "clang-debug"
+        }
+    ]
+}
