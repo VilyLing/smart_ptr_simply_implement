@@ -215,8 +215,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/root/Code/TemplatePrimer/build/clang-debug",
-		"source" : "/root/Code/TemplatePrimer"
+		"build" : "/home/Vily/Code/TemplatePrimer/build/clang-debug",
+		"source" : "/home/Vily/Code/TemplatePrimer"
 	},
 	"version" : 
 	{

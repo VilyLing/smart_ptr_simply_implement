@@ -1,8 +1,8 @@
 [
 {
-  "directory": "/root/Code/TemplatePrimer/build/clang-debug",
-  "command": "/usr/sbin/clang++ -I/root/Code/TemplatePrimer/include -stdlib=libc++ -g -std=gnu++23 @CMakeFiles/app.dir/src/main.cpp.o.modmap -o CMakeFiles/app.dir/src/main.cpp.o -c /root/Code/TemplatePrimer/src/main.cpp",
-  "file": "/root/Code/TemplatePrimer/src/main.cpp",
-  "output": "/root/Code/TemplatePrimer/build/clang-debug/CMakeFiles/app.dir/src/main.cpp.o"
+  "directory": "/home/Vily/Code/TemplatePrimer/build/clang-debug",
+  "command": "/usr/sbin/clang++ -I/home/Vily/Code/TemplatePrimer/include -stdlib=libc++ -g -std=gnu++23 @CMakeFiles/app.dir/src/main.cpp.o.modmap -o CMakeFiles/app.dir/src/main.cpp.o -c /home/Vily/Code/TemplatePrimer/src/main.cpp",
+  "file": "/home/Vily/Code/TemplatePrimer/src/main.cpp",
+  "output": "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/app.dir/src/main.cpp.o"
 }
 ]

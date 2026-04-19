@@ -1,6 +1,3 @@
-
-
-#include "Shared_ptr.h"
 #include <iostream>
 #include <memory>
 int main() {
@@ -9,6 +6,8 @@ int main() {
     #else
         std::cout <<"Gcc" << std::endl;
     #endif    
+
+    
 
 
     return 0;

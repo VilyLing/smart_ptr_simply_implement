@@ -74,7 +74,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/sbin/cmake --regenerate-during-build -S/root/Code/TemplatePrimer -B/root/Code/TemplatePrimer/build/clang-debug
+  command = /usr/sbin/cmake --regenerate-during-build -S/home/Vily/Code/TemplatePrimer -B/home/Vily/Code/TemplatePrimer/build/clang-debug
   description = Re-running CMake...
   generator = 1
 

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/root/Code/TemplatePrimer/build/clang-debug/cmake_install.cmake"
+		"/home/Vily/Code/TemplatePrimer/build/clang-debug/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

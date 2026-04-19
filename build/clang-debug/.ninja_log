@@ -1,7 +1,7 @@
 # ninja log v7
-22	681	1776361919742300764	CMakeFiles/app.dir/src/main.cpp.o.ddi	37ce5625e809c985
-682	739	1776361920402300909	CMakeFiles/app.dir/CXX.dd	da90df3c8fb258f7
-682	739	1776361920402300909	CMakeFiles/app.dir/CXXModules.json	da90df3c8fb258f7
-682	739	1776361920402300909	CMakeFiles/app.dir/src/main.cpp.o.modmap	da90df3c8fb258f7
-740	4498	1776361920458300921	CMakeFiles/app.dir/src/main.cpp.o	1daae9571ab743ba
-4498	5683	1776361924218301745	app	8bde5c85a5ab0ae0
+5	117	1776421549307143346	CMakeFiles/app.dir/src/main.cpp.o.ddi	c311c20488fd75da
+117	138	1776421549419143347	CMakeFiles/app.dir/CXX.dd	da90df3c8fb258f7
+117	138	1776421549419143347	CMakeFiles/app.dir/CXXModules.json	da90df3c8fb258f7
+117	138	1776421549419143347	CMakeFiles/app.dir/src/main.cpp.o.modmap	da90df3c8fb258f7
+139	2399	1776421549439143347	CMakeFiles/app.dir/src/main.cpp.o	241ee621d6e8ccc3
+2399	2877	1776421551699143369	app	8bde5c85a5ab0ae0

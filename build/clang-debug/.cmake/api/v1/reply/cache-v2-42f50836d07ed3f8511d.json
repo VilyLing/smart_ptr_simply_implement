@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/root/Code/TemplatePrimer/build/clang-debug"
+			"value" : "/home/Vily/Code/TemplatePrimer/build/clang-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/root/Code/TemplatePrimer"
+			"value" : "/home/Vily/Code/TemplatePrimer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1235,7 +1235,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/Code/TemplatePrimer/build/clang-debug"
+			"value" : "/home/Vily/Code/TemplatePrimer/build/clang-debug"
 		},
 		{
 			"name" : "TemplatePrimer_IS_TOP_LEVEL",
@@ -1259,7 +1259,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/root/Code/TemplatePrimer"
+			"value" : "/home/Vily/Code/TemplatePrimer"
 		}
 	],
 	"kind" : "cache",
