@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/Vily/Code/TemplatePrimer/build/clang-debug",
-  "command": "/usr/sbin/clang++ -I/home/Vily/Code/TemplatePrimer/include -stdlib=libc++ -g -std=gnu++23 @CMakeFiles/app.dir/src/main.cpp.o.modmap -o CMakeFiles/app.dir/src/main.cpp.o -c /home/Vily/Code/TemplatePrimer/src/main.cpp",
-  "file": "/home/Vily/Code/TemplatePrimer/src/main.cpp",
-  "output": "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/app.dir/src/main.cpp.o"
+  "command": "/usr/sbin/clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/Vily/Code/TemplatePrimer/include -g -std=gnu++23 -fsanitize=address @CMakeFiles/app.dir/test/test.cpp.o.modmap -o CMakeFiles/app.dir/test/test.cpp.o -c /home/Vily/Code/TemplatePrimer/test/test.cpp",
+  "file": "/home/Vily/Code/TemplatePrimer/test/test.cpp",
+  "output": "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/app.dir/test/test.cpp.o"
 }
 ]

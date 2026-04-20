@@ -1,0 +1,22 @@
+UniqueTest.Default_Construct 12 0.00319898
+UniqueTest.Construct_From_Raw 12 0.0026461
+UniqueTest.Destructor_Release_Resource 12 0.00273327
+UniqueTest.Move_Constructor 11 0.00267173
+UniqueTest.Move_Assignment 11 0.00272125
+UniquePtrTest.Release 11 0.00240218
+UniquePtrTest.Reset 11 0.00282262
+UniquePtrTest.Custom_deleter 9 0.00333646
+ASAN_TEST.LeakDetection 0 0
+SharedPointerTest.DefaultConstruct 6 0.00474467
+SharedPointerTest.Copy_Construct 5 0.00593158
+SharedPointerTest.Copy_assignment_operator 3 0.0098986
+SharedPointerTest.Move_Constructor 3 0.00901997
+SharedPointerTest.CopyAssignmentOperator 1 0.0275782
+SharedPointerTest.MoveAssignmentOperator 1 0.0279759
+SharedPointerTest.Reset 1 0.0268447
+SharedPointerTest.CompareWithNullptr 1 0.0267677
+WeakPointerTest.Lock 0 0
+WeakPointerTest.BreakCycle 0 0
+---
+WeakPointerTest.Lock
+WeakPointerTest.BreakCycle

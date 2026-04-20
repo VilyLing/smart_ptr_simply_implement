@@ -1,0 +1,594 @@
+Start testing: Apr 20 17:49 CST
+----------------------------------------------------------
+1/18 Testing: UniqueTest.Default_Construct
+1/18 Test: UniqueTest.Default_Construct
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniqueTest.Default_Construct" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniqueTest.Default_Construct" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniqueTest.Default_Construct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniqueTest
+[ RUN      ] UniqueTest.Default_Construct
+[       OK ] UniqueTest.Default_Construct (0 ms)
+[----------] 1 test from UniqueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"UniqueTest.Default_Construct" end time: Apr 20 17:49 CST
+"UniqueTest.Default_Construct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/18 Testing: UniqueTest.Construct_From_Raw
+2/18 Test: UniqueTest.Construct_From_Raw
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniqueTest.Construct_From_Raw" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniqueTest.Construct_From_Raw" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniqueTest.Construct_From_Raw
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniqueTest
+[ RUN      ] UniqueTest.Construct_From_Raw
+[       OK ] UniqueTest.Construct_From_Raw (0 ms)
+[----------] 1 test from UniqueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"UniqueTest.Construct_From_Raw" end time: Apr 20 17:49 CST
+"UniqueTest.Construct_From_Raw" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/18 Testing: UniqueTest.Destructor_Release_Resource
+3/18 Test: UniqueTest.Destructor_Release_Resource
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniqueTest.Destructor_Release_Resource" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniqueTest.Destructor_Release_Resource" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniqueTest.Destructor_Release_Resource
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniqueTest
+[ RUN      ] UniqueTest.Destructor_Release_Resource
+[       OK ] UniqueTest.Destructor_Release_Resource (0 ms)
+[----------] 1 test from UniqueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"UniqueTest.Destructor_Release_Resource" end time: Apr 20 17:49 CST
+"UniqueTest.Destructor_Release_Resource" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/18 Testing: UniqueTest.Move_Constructor
+4/18 Test: UniqueTest.Move_Constructor
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniqueTest.Move_Constructor" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniqueTest.Move_Constructor" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniqueTest.Move_Constructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniqueTest
+[ RUN      ] UniqueTest.Move_Constructor
+[       OK ] UniqueTest.Move_Constructor (0 ms)
+[----------] 1 test from UniqueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"UniqueTest.Move_Constructor" end time: Apr 20 17:49 CST
+"UniqueTest.Move_Constructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/18 Testing: UniqueTest.Move_Assignment
+5/18 Test: UniqueTest.Move_Assignment
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniqueTest.Move_Assignment" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniqueTest.Move_Assignment" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniqueTest.Move_Assignment
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniqueTest
+[ RUN      ] UniqueTest.Move_Assignment
+[       OK ] UniqueTest.Move_Assignment (0 ms)
+[----------] 1 test from UniqueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"UniqueTest.Move_Assignment" end time: Apr 20 17:49 CST
+"UniqueTest.Move_Assignment" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/18 Testing: UniquePtrTest.Release
+6/18 Test: UniquePtrTest.Release
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniquePtrTest.Release" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniquePtrTest.Release" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.Release
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.Release
+[       OK ] UniquePtrTest.Release (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.Release" end time: Apr 20 17:49 CST
+"UniquePtrTest.Release" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/18 Testing: UniquePtrTest.Reset
+7/18 Test: UniquePtrTest.Reset
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniquePtrTest.Reset" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniquePtrTest.Reset" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.Reset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.Reset
+[       OK ] UniquePtrTest.Reset (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.Reset" end time: Apr 20 17:49 CST
+"UniquePtrTest.Reset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/18 Testing: UniquePtrTest.Custom_deleter
+8/18 Test: UniquePtrTest.Custom_deleter
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=UniquePtrTest.Custom_deleter" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"UniquePtrTest.Custom_deleter" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.Custom_deleter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.Custom_deleter
+[       OK ] UniquePtrTest.Custom_deleter (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.Custom_deleter" end time: Apr 20 17:49 CST
+"UniquePtrTest.Custom_deleter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/18 Testing: SharedPointerTest.DefaultConstruct
+9/18 Test: SharedPointerTest.DefaultConstruct
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.DefaultConstruct" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.DefaultConstruct" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.DefaultConstruct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.DefaultConstruct
+[       OK ] SharedPointerTest.DefaultConstruct (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.DefaultConstruct" end time: Apr 20 17:49 CST
+"SharedPointerTest.DefaultConstruct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/18 Testing: SharedPointerTest.Copy_Construct
+10/18 Test: SharedPointerTest.Copy_Construct
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.Copy_Construct" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.Copy_Construct" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.Copy_Construct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.Copy_Construct
+[       OK ] SharedPointerTest.Copy_Construct (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.Copy_Construct" end time: Apr 20 17:49 CST
+"SharedPointerTest.Copy_Construct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/18 Testing: SharedPointerTest.Copy_assignment_operator
+11/18 Test: SharedPointerTest.Copy_assignment_operator
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.Copy_assignment_operator" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.Copy_assignment_operator" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.Copy_assignment_operator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.Copy_assignment_operator
+[       OK ] SharedPointerTest.Copy_assignment_operator (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.Copy_assignment_operator" end time: Apr 20 17:49 CST
+"SharedPointerTest.Copy_assignment_operator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/18 Testing: SharedPointerTest.Move_Constructor
+12/18 Test: SharedPointerTest.Move_Constructor
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.Move_Constructor" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.Move_Constructor" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.Move_Constructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.Move_Constructor
+[       OK ] SharedPointerTest.Move_Constructor (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.Move_Constructor" end time: Apr 20 17:49 CST
+"SharedPointerTest.Move_Constructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/18 Testing: SharedPointerTest.CopyAssignmentOperator
+13/18 Test: SharedPointerTest.CopyAssignmentOperator
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.CopyAssignmentOperator" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.CopyAssignmentOperator" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.CopyAssignmentOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.CopyAssignmentOperator
+[       OK ] SharedPointerTest.CopyAssignmentOperator (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.CopyAssignmentOperator" end time: Apr 20 17:49 CST
+"SharedPointerTest.CopyAssignmentOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/18 Testing: SharedPointerTest.MoveAssignmentOperator
+14/18 Test: SharedPointerTest.MoveAssignmentOperator
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.MoveAssignmentOperator" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.MoveAssignmentOperator" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.MoveAssignmentOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.MoveAssignmentOperator
+[       OK ] SharedPointerTest.MoveAssignmentOperator (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.MoveAssignmentOperator" end time: Apr 20 17:49 CST
+"SharedPointerTest.MoveAssignmentOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/18 Testing: SharedPointerTest.Reset
+15/18 Test: SharedPointerTest.Reset
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.Reset" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.Reset" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.Reset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.Reset
+[       OK ] SharedPointerTest.Reset (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.Reset" end time: Apr 20 17:49 CST
+"SharedPointerTest.Reset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/18 Testing: SharedPointerTest.CompareWithNullptr
+16/18 Test: SharedPointerTest.CompareWithNullptr
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=SharedPointerTest.CompareWithNullptr" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"SharedPointerTest.CompareWithNullptr" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = SharedPointerTest.CompareWithNullptr
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SharedPointerTest
+[ RUN      ] SharedPointerTest.CompareWithNullptr
+[       OK ] SharedPointerTest.CompareWithNullptr (0 ms)
+[----------] 1 test from SharedPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SharedPointerTest.CompareWithNullptr" end time: Apr 20 17:49 CST
+"SharedPointerTest.CompareWithNullptr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/18 Testing: WeakPointerTest.Lock
+17/18 Test: WeakPointerTest.Lock
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=WeakPointerTest.Lock" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"WeakPointerTest.Lock" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = WeakPointerTest.Lock
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WeakPointerTest
+[ RUN      ] WeakPointerTest.Lock
+/home/Vily/Code/TemplatePrimer/test/test.cpp:178: Failure
+Expected equality of these values:
+  sp3.get()
+    Which is: 0x6eb2168e0650
+  nullptr
+    Which is: (nullptr)
+
+[  FAILED  ] WeakPointerTest.Lock (0 ms)
+[----------] 1 test from WeakPointerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] WeakPointerTest.Lock
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"WeakPointerTest.Lock" end time: Apr 20 17:49 CST
+"WeakPointerTest.Lock" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/18 Testing: WeakPointerTest.BreakCycle
+18/18 Test: WeakPointerTest.BreakCycle
+Command: "/home/Vily/Code/TemplatePrimer/build/clang-debug/app" "--gtest_filter=WeakPointerTest.BreakCycle" "--gtest_also_run_disabled_tests"
+Directory: /home/Vily/Code/TemplatePrimer/build/clang-debug
+"WeakPointerTest.BreakCycle" start time: Apr 20 17:49 CST
+Output:
+----------------------------------------------------------
+Running main() from /usr/src/debug/gtest/googletest-1.17.0/googletest/src/gtest_main.cc
+Note: Google Test filter = WeakPointerTest.BreakCycle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WeakPointerTest
+[ RUN      ] WeakPointerTest.BreakCycle
+=================================================================
+==14718==ERROR: AddressSanitizer: heap-use-after-free on address 0x717624fe15b0 at pc 0x5d76842ed03e bp 0x7ffcccfcb990 sp 0x7ffcccfcb988
+WRITE of size 8 at 0x717624fe15b0 thread T0
+    #0 0x5d76842ed03d in control_block_final<Node, void (*)(Node*)>::destroy_res() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:71:12
+    #1 0x5d76842eaf7e in control_block_super::release_ref() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:21:7
+    #2 0x5d76842eccd9 in Shared_Pointer<Node>::release() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:156:12
+    #3 0x5d76842e1fc4 in Shared_Pointer<Node>::~Shared_Pointer() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:124:23
+    #4 0x5d76842df876 in WeakPointerTest_BreakCycle_Test::TestBody() /home/Vily/Code/TemplatePrimer/test/test.cpp:193:1
+    #5 0x7546263b74a6  (/usr/lib/libgtest.so.1.17.0+0x594a6) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #6 0x7546263a076f in testing::Test::Run() (/usr/lib/libgtest.so.1.17.0+0x4276f) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #7 0x7546263a096e in testing::TestInfo::Run() (/usr/lib/libgtest.so.1.17.0+0x4296e) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #8 0x7546263a0b83 in testing::TestSuite::Run() (/usr/lib/libgtest.so.1.17.0+0x42b83) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #9 0x7546263ae1c8 in testing::internal::UnitTestImpl::RunAllTests() (/usr/lib/libgtest.so.1.17.0+0x501c8) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #10 0x7546263ae9e8 in testing::UnitTest::Run() (/usr/lib/libgtest.so.1.17.0+0x509e8) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #11 0x7546263d8069 in main (/usr/lib/libgtest_main.so.1.17.0+0x1069) (BuildId: dc57fdba9a4858551763d55573c1398fb6209888)
+    #12 0x754625d186c0  (/usr/lib/libc.so.6+0x276c0) (BuildId: 7a8d41a2df4fde040b4c6ac2832311ab645a1e41)
+    #13 0x754625d187f8 in __libc_start_main (/usr/lib/libc.so.6+0x277f8) (BuildId: 7a8d41a2df4fde040b4c6ac2832311ab645a1e41)
+    #14 0x5d7684178214 in _start (/home/Vily/Code/TemplatePrimer/build/clang-debug/app+0x39214) (BuildId: 1cf739cbcee83119861415f7bbb29ee3796d2ae7)
+
+0x717624fe15b0 is located 16 bytes inside of 32-byte region [0x717624fe15a0,0x717624fe15c0)
+freed by thread T0 here:
+    #0 0x5d76842d3ed5 in operator delete(void*, unsigned long) (/home/Vily/Code/TemplatePrimer/build/clang-debug/app+0x194ed5) (BuildId: 1cf739cbcee83119861415f7bbb29ee3796d2ae7)
+    #1 0x5d76842ed106 in control_block_final<Node, void (*)(Node*)>::~control_block_final() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:58:7
+    #2 0x5d76842ed0b2 in control_block_final<Node, void (*)(Node*)>::destroy_self() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:75:42
+    #3 0x5d76842ecb5c in control_block_super::release_self() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:30:7
+    #4 0x5d76842ecd39 in weak_pointer<Node>::release() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:202:12
+    #5 0x5d76842e20fc in weak_pointer<Node>::~weak_pointer() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:186:7
+    #6 0x5d76842ece2c in Node::~Node() /home/Vily/Code/TemplatePrimer/test/test.cpp:185:34
+    #7 0x5d76842dfb22 in void Default_Delete<Node>(Node*) /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:48:3
+    #8 0x5d76842ed01b in control_block_final<Node, void (*)(Node*)>::destroy_res() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:70:7
+    #9 0x5d76842eaf7e in control_block_super::release_ref() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:21:7
+    #10 0x5d76842eccd9 in Shared_Pointer<Node>::release() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:156:12
+    #11 0x5d76842e1fc4 in Shared_Pointer<Node>::~Shared_Pointer() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:124:23
+    #12 0x5d76842ece39 in Node::~Node() /home/Vily/Code/TemplatePrimer/test/test.cpp:185:34
+    #13 0x5d76842dfb22 in void Default_Delete<Node>(Node*) /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:48:3
+    #14 0x5d76842ed01b in control_block_final<Node, void (*)(Node*)>::destroy_res() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:70:7
+    #15 0x5d76842eaf7e in control_block_super::release_ref() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:21:7
+    #16 0x5d76842eccd9 in Shared_Pointer<Node>::release() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:156:12
+    #17 0x5d76842e1fc4 in Shared_Pointer<Node>::~Shared_Pointer() /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:124:23
+    #18 0x5d76842df876 in WeakPointerTest_BreakCycle_Test::TestBody() /home/Vily/Code/TemplatePrimer/test/test.cpp:193:1
+    #19 0x7546263b74a6  (/usr/lib/libgtest.so.1.17.0+0x594a6) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #20 0x7546263a076f in testing::Test::Run() (/usr/lib/libgtest.so.1.17.0+0x4276f) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #21 0x7546263a096e in testing::TestInfo::Run() (/usr/lib/libgtest.so.1.17.0+0x4296e) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #22 0x7546263a0b83 in testing::TestSuite::Run() (/usr/lib/libgtest.so.1.17.0+0x42b83) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #23 0x7546263ae1c8 in testing::internal::UnitTestImpl::RunAllTests() (/usr/lib/libgtest.so.1.17.0+0x501c8) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #24 0x7546263ae9e8 in testing::UnitTest::Run() (/usr/lib/libgtest.so.1.17.0+0x509e8) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #25 0x7546263d8069 in main (/usr/lib/libgtest_main.so.1.17.0+0x1069) (BuildId: dc57fdba9a4858551763d55573c1398fb6209888)
+    #26 0x754625d186c0  (/usr/lib/libc.so.6+0x276c0) (BuildId: 7a8d41a2df4fde040b4c6ac2832311ab645a1e41)
+    #27 0x754625d187f8 in __libc_start_main (/usr/lib/libc.so.6+0x277f8) (BuildId: 7a8d41a2df4fde040b4c6ac2832311ab645a1e41)
+    #28 0x5d7684178214 in _start (/home/Vily/Code/TemplatePrimer/build/clang-debug/app+0x39214) (BuildId: 1cf739cbcee83119861415f7bbb29ee3796d2ae7)
+
+previously allocated by thread T0 here:
+    #0 0x5d76842d2f75 in operator new(unsigned long) (/home/Vily/Code/TemplatePrimer/build/clang-debug/app+0x193f75) (BuildId: 1cf739cbcee83119861415f7bbb29ee3796d2ae7)
+    #1 0x5d76842ecd73 in Shared_Pointer<Node>::Shared_Pointer<void (*)(Node*)>(Node*, void (*)(Node*)) /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:101:19
+    #2 0x5d76842e1e53 in Shared_Pointer<Node>::Shared_Pointer(Node*) /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:102:36
+    #3 0x5d76842df73e in WeakPointerTest_BreakCycle_Test::TestBody() /home/Vily/Code/TemplatePrimer/test/test.cpp:188:14
+    #4 0x7546263b74a6  (/usr/lib/libgtest.so.1.17.0+0x594a6) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #5 0x7546263a076f in testing::Test::Run() (/usr/lib/libgtest.so.1.17.0+0x4276f) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #6 0x7546263a096e in testing::TestInfo::Run() (/usr/lib/libgtest.so.1.17.0+0x4296e) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #7 0x7546263a0b83 in testing::TestSuite::Run() (/usr/lib/libgtest.so.1.17.0+0x42b83) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #8 0x7546263ae1c8 in testing::internal::UnitTestImpl::RunAllTests() (/usr/lib/libgtest.so.1.17.0+0x501c8) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #9 0x7546263ae9e8 in testing::UnitTest::Run() (/usr/lib/libgtest.so.1.17.0+0x509e8) (BuildId: 8708846712e6e27f46fd50f1d3854f659cfd6600)
+    #10 0x7546263d8069 in main (/usr/lib/libgtest_main.so.1.17.0+0x1069) (BuildId: dc57fdba9a4858551763d55573c1398fb6209888)
+    #11 0x754625d186c0  (/usr/lib/libc.so.6+0x276c0) (BuildId: 7a8d41a2df4fde040b4c6ac2832311ab645a1e41)
+    #12 0x754625d187f8 in __libc_start_main (/usr/lib/libc.so.6+0x277f8) (BuildId: 7a8d41a2df4fde040b4c6ac2832311ab645a1e41)
+    #13 0x5d7684178214 in _start (/home/Vily/Code/TemplatePrimer/build/clang-debug/app+0x39214) (BuildId: 1cf739cbcee83119861415f7bbb29ee3796d2ae7)
+
+SUMMARY: AddressSanitizer: heap-use-after-free /home/Vily/Code/TemplatePrimer/include/Shared_ptr.h:71:12 in control_block_final<Node, void (*)(Node*)>::destroy_res()
+Shadow bytes around the buggy address:
+  0x717624fe1300: fd fd fd fd fa fa fd fd fd fd fa fa fd fd fd fd
+  0x717624fe1380: fa fa fd fd fd fd fa fa fd fd fd fd fa fa fd fd
+  0x717624fe1400: fd fd fa fa fd fd fd fd fa fa fd fd fd fd fa fa
+  0x717624fe1480: fd fd fd fd fa fa fd fd fd fd fa fa fd fd fd fd
+  0x717624fe1500: fa fa fd fd fd fd fa fa 00 00 00 07 fa fa fd fd
+=>0x717624fe1580: fd fa fa fa fd fd[fd]fd fa fa fd fd fd fa fa fa
+  0x717624fe1600: fd fd fd fd fa fa fa fa fa fa fa fa fa fa fa fa
+  0x717624fe1680: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x717624fe1700: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x717624fe1780: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x717624fe1800: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==14718==ABORTING
+<end of output>
+Test time =   0.78 sec
+----------------------------------------------------------
+Test Failed.
+"WeakPointerTest.BreakCycle" end time: Apr 20 17:49 CST
+"WeakPointerTest.BreakCycle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 20 17:49 CST

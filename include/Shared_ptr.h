@@ -3,6 +3,7 @@
 // 基类control_block_super
 #include <algorithm>
 #include <atomic>
+#include <cstddef>
 #include <utility>
 struct control_block_super {
   using u32_int = unsigned int;
@@ -18,9 +19,7 @@ struct control_block_super {
   void release_ref() {
     if (--strong_ == 0) {
       destroy_res();
-      if (weak_ == 0) {
-        destroy_self();
-      }
+      destroy_self();
     }
   }
 
@@ -73,7 +72,8 @@ public:
 
   virtual void destroy_self() override { delete this; }
 
-  virtual void *get_obj() const override { return ptr_; }
+  virtual void *get_obj() const override { return ptr_?ptr_:nullptr; }
+
 
 private:
   T *ptr_;
@@ -95,9 +95,9 @@ public:
 
 
   template <typename Deleter = Default_Deleter<T>>
-  Shared_Pointer(T *ptr, Deleter d = Default_Deleter<T>())
+  Shared_Pointer(T *ptr = nullptr, Deleter d = Default_Deleter<T>())
       : cb_(ptr ? new control_block_final<T, Deleter>(ptr, d) : nullptr) {}
-  Shared_Pointer(T* ptr):Shared_Pointer(ptr,Default_Delete<T>){}
+  Shared_Pointer(T* ptr = nullptr):Shared_Pointer(ptr,Default_Delete<T>){}
   Shared_Pointer(const Shared_Pointer &rhs) : cb_(rhs.cb_) {
     if (cb_) {
       cb_->add_ref();
@@ -132,6 +132,14 @@ public:
     Shared_Pointer(ptr, d).swap(*this);
   }
 
+  explicit operator bool() const {return cb_ !=nullptr;}
+  bool operator!() const {return get() == nullptr;}
+  bool operator==(const Shared_Pointer& rhs) const{
+    return cb_ == rhs.cb_;
+  }
+  bool operator==(std::nullptr_t) const{
+    return cb_ == nullptr;
+  }
 private:
   // 只需要一个control_block_cb
   control_block_super *cb_;

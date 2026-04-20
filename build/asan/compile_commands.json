@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/Vily/Code/TemplatePrimer/build/asan",
+  "command": "/usr/sbin/c++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/Vily/Code/TemplatePrimer/include -g -std=gnu++23 -fsanitize=address -fmodules-ts -fmodule-mapper=CMakeFiles/app.dir/test/test.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/app.dir/test/test.cpp.o -c /home/Vily/Code/TemplatePrimer/test/test.cpp",
+  "file": "/home/Vily/Code/TemplatePrimer/test/test.cpp",
+  "output": "/home/Vily/Code/TemplatePrimer/build/asan/CMakeFiles/app.dir/test/test.cpp.o"
+}
+]

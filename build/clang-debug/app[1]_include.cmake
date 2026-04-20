@@ -1,0 +1,5 @@
+if(EXISTS "/home/Vily/Code/TemplatePrimer/build/clang-debug/app[1]_tests.cmake")
+  include("/home/Vily/Code/TemplatePrimer/build/clang-debug/app[1]_tests.cmake")
+else()
+  add_test(app_NOT_BUILT app_NOT_BUILT)
+endif()

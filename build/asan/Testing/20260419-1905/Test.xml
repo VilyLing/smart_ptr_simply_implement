@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260419-1905-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.3.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="DESKTOP-L8RACR2"
+	OSRelease="6.6.87.2-microsoft-standard-WSL2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="158"
+	ModelName="Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz"
+	ProcessorCacheSize="9216"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="15921"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2208.006104"
+	>
+	<Testing>
+		<StartDateTime>Apr 21 02:20 CST</StartDateTime>
+		<StartTestTime>1776709241</StartTestTime>
+		<TestList/>
+		<EndDateTime>Apr 21 02:20 CST</EndDateTime>
+		<EndTestTime>1776709241</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

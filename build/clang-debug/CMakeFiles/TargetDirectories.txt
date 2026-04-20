@@ -1,3 +1,4 @@
 /home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/app.dir
+/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/test.dir
 /home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/edit_cache.dir
 /home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/rebuild_cache.dir

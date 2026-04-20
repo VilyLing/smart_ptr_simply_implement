@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/Vily/Code/TemplatePrimer/build/asan/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

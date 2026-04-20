@@ -49,26 +49,28 @@ cmake_ninja_workdir = /home/Vily/Code/TemplatePrimer/build/clang-debug/
 
 build cmake_object_order_depends_target_app: phony || .
 
-build CMakeFiles/app.dir/src/main.cpp.o.ddi: CXX_SCAN__app_Debug /home/Vily/Code/TemplatePrimer/src/main.cpp || cmake_object_order_depends_target_app
-  DEP_FILE = CMakeFiles/app.dir/src/main.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/app.dir/src/main.cpp.o.ddi
-  FLAGS = -stdlib=libc++ -g -std=gnu++23
+build CMakeFiles/app.dir/test/test.cpp.o.ddi: CXX_SCAN__app_Debug /home/Vily/Code/TemplatePrimer/test/test.cpp || cmake_object_order_depends_target_app
+  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
+  DEP_FILE = CMakeFiles/app.dir/test/test.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/app.dir/test/test.cpp.o.ddi
+  FLAGS = -g -std=gnu++23 -fsanitize=address
   INCLUDES = -I/home/Vily/Code/TemplatePrimer/include
-  OBJ_FILE = CMakeFiles/app.dir/src/main.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/app.dir/src/main.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/app.dir/test/test.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/app.dir/test/test.cpp.o.ddi.i
 
-build CMakeFiles/app.dir/src/main.cpp.o: CXX_COMPILER__app_scanned_Debug /home/Vily/Code/TemplatePrimer/src/main.cpp | CMakeFiles/app.dir/src/main.cpp.o.modmap || cmake_object_order_depends_target_app CMakeFiles/app.dir/CXX.dd
+build CMakeFiles/app.dir/test/test.cpp.o: CXX_COMPILER__app_scanned_Debug /home/Vily/Code/TemplatePrimer/test/test.cpp | CMakeFiles/app.dir/test/test.cpp.o.modmap || cmake_object_order_depends_target_app CMakeFiles/app.dir/CXX.dd
   CONFIG = Debug
-  DEP_FILE = CMakeFiles/app.dir/src/main.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/app.dir/src/main.cpp.o.modmap
-  FLAGS = -stdlib=libc++ -g -std=gnu++23
+  DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
+  DEP_FILE = CMakeFiles/app.dir/test/test.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/app.dir/test/test.cpp.o.modmap
+  FLAGS = -g -std=gnu++23 -fsanitize=address
   INCLUDES = -I/home/Vily/Code/TemplatePrimer/include
   OBJECT_DIR = CMakeFiles/app.dir
-  OBJECT_FILE_DIR = CMakeFiles/app.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/app.dir/test
   TARGET_SUPPORT_DIR = CMakeFiles/app.dir
   dyndep = CMakeFiles/app.dir/CXX.dd
 
-build CMakeFiles/app.dir/CXX.dd | CMakeFiles/app.dir/CXXModules.json CMakeFiles/app.dir/src/main.cpp.o.modmap: CXX_DYNDEP__app_Debug CMakeFiles/app.dir/src/main.cpp.o.ddi | /home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/app.dir/CXXDependInfo.json
+build CMakeFiles/app.dir/CXX.dd | CMakeFiles/app.dir/CXXModules.json CMakeFiles/app.dir/test/test.cpp.o.modmap: CXX_DYNDEP__app_Debug CMakeFiles/app.dir/test/test.cpp.o.ddi | /home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/app.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -78,17 +80,31 @@ build CMakeFiles/app.dir/CXX.dd | CMakeFiles/app.dir/CXXModules.json CMakeFiles/
 #############################################
 # Link the executable app
 
-build app: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles/app.dir/src/main.cpp.o
+build app app[1]_tests.cmake | ${cmake_ninja_workdir}app[1]_tests.cmake: CXX_EXECUTABLE_LINKER__app_Debug CMakeFiles/app.dir/test/test.cpp.o | /usr/lib/libgtest_main.so.1.17.0 /usr/lib/libgtest.so.1.17.0
   CONFIG = Debug
   DEP_FILE = CMakeFiles/app.dir/link.d
-  FLAGS = -stdlib=libc++ -g
-  LINK_FLAGS = -stdlib=libc++ -Xlinker --dependency-file=CMakeFiles/app.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -fsanitize=address -Xlinker --dependency-file=CMakeFiles/app.dir/link.d
+  LINK_LIBRARIES = /usr/lib/libgtest_main.so.1.17.0  /usr/lib/libgtest.so.1.17.0
   OBJECT_DIR = CMakeFiles/app.dir
-  POST_BUILD = :
+  POST_BUILD = cd /home/Vily/Code/TemplatePrimer/build/clang-debug && /usr/sbin/cmake -D TEST_TARGET=app -D TEST_EXECUTABLE=/home/Vily/Code/TemplatePrimer/build/clang-debug/app -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/Vily/Code/TemplatePrimer/build/clang-debug -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=app_TESTS -D CTEST_FILE=/home/Vily/Code/TemplatePrimer/build/clang-debug/app[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake/Modules/GoogleTestAddTests.cmake
   PRE_LINK = :
+  RESTAT = 1
   TARGET_FILE = app
   TARGET_PDB = app.dbg
   TARGET_SUPPORT_DIR = CMakeFiles/app.dir
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /home/Vily/Code/TemplatePrimer/build/clang-debug && /usr/sbin/ctest
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
 
 
 #############################################
@@ -134,14 +150,14 @@ build all: phony app
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/Vily/Code/TemplatePrimer/build/clang-debug/cmake_install.cmake: RERUN_CMAKE | /home/Vily/Code/TemplatePrimer/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake
+build build.ninja /home/Vily/Code/TemplatePrimer/build/clang-debug/cmake_install.cmake /home/Vily/Code/TemplatePrimer/build/clang-debug/CTestTestfile.cmake: RERUN_CMAKE | /home/Vily/Code/TemplatePrimer/CMakeLists.txt /usr/lib/cmake/GTest/GTestConfig.cmake /usr/lib/cmake/GTest/GTestConfigVersion.cmake /usr/lib/cmake/GTest/GTestTargets-none.cmake /usr/lib/cmake/GTest/GTestTargets.cmake /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindGTest.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/GoogleTest.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/Vily/Code/TemplatePrimer/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake: phony
+build /home/Vily/Code/TemplatePrimer/CMakeLists.txt /usr/lib/cmake/GTest/GTestConfig.cmake /usr/lib/cmake/GTest/GTestConfigVersion.cmake /usr/lib/cmake/GTest/GTestTargets-none.cmake /usr/lib/cmake/GTest/GTestTargets.cmake /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-C.cmake /usr/share/cmake/Modules/Compiler/Clang-CXX.cmake /usr/share/cmake/Modules/Compiler/Clang.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindGTest.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/GoogleTest.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake /usr/share/cmake/Modules/Platform/Linux-Clang-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.3.1/CMakeCCompiler.cmake CMakeFiles/4.3.1/CMakeCXXCompiler.cmake CMakeFiles/4.3.1/CMakeSystem.cmake: phony
 
 
 #############################################

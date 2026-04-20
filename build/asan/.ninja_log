@@ -1,0 +1,9 @@
+# ninja log v7
+4	509	1776626014204319446	CMakeFiles/app.dir/test/test.cpp.o.ddi	fa1015c03094bc6
+509	541	1776626014708319481	CMakeFiles/app.dir/CXX.dd	57427ea737d0474e
+509	541	1776626014708319481	CMakeFiles/app.dir/CXXModules.json	57427ea737d0474e
+509	541	1776626014708319481	CMakeFiles/app.dir/test/test.cpp.o.modmap	57427ea737d0474e
+542	5430	1776626014744319483	CMakeFiles/app.dir/test/test.cpp.o	2b6cd2781cd944de
+5433	7185	1776626021384319868	app	1404ad5ba80a59c
+5433	7185	1776626021384319868	app[1]_tests.cmake	1404ad5ba80a59c
+5433	7185	1776626021384319868	/home/Vily/Code/TemplatePrimer/build/asan/app[1]_tests.cmake	1404ad5ba80a59c

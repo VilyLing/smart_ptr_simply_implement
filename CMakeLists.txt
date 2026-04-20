@@ -4,13 +4,21 @@ project(TemplatePrimer)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(SOURCES 
-${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
-)
+find_package(GTest REQUIRED)
 
-add_executable(app ${SOURCES})
+if(CMAKE_CXX_SANITIZERS)
+    add_compile_options(-fsanitize=${CMAKE_CXX_SANITIZERS})
+    add_link_options(-fsanitize=${CMAKE_CXX_SANITIZERS})
+endif()
 
-target_include_directories(app PRIVATE 
+add_executable(app ${CMAKE_CURRENT_SOURCE_DIR}/test/test.cpp)
 
+target_link_libraries(app PUBLIC GTest::gtest GTest::gtest_main)
+
+target_include_directories(app PUBLIC 
  ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
+
+enable_testing()
+include(GoogleTest)
+gtest_discover_tests(app)

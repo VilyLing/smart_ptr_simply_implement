@@ -20,6 +20,9 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -30,6 +33,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -78,12 +82,18 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/uname"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/uname"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/sbin/uname"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -94,6 +104,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -216,6 +227,9 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -226,6 +240,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -274,6 +289,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/ninja-build"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/ninja"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/samu"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/ninja-build"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/ninja"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/samu"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/ninja-build"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/ninja"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/samu"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/ninja-build"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/ninja"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/samu"
@@ -287,6 +311,9 @@ events:
     found: "/usr/sbin/ninja"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -297,6 +324,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -411,6 +439,9 @@ events:
     names:
       - "clang"
     candidate_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -421,6 +452,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -469,12 +501,18 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang"
       - "/usr/local/sbin/clang"
       - "/usr/local/bin/clang"
     found: "/usr/sbin/clang"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -485,6 +523,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -606,6 +645,9 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -616,6 +658,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -754,6 +797,9 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -763,6 +809,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -813,6 +860,9 @@ events:
     found: "/usr/sbin/llvm-ar"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -823,6 +873,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -939,6 +990,9 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -948,6 +1002,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -998,6 +1053,9 @@ events:
     found: "/usr/sbin/llvm-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -1008,6 +1066,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -1124,6 +1183,9 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1133,6 +1195,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -1183,6 +1246,9 @@ events:
     found: "/usr/sbin/llvm-strip"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -1193,6 +1259,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -1309,6 +1376,9 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1318,6 +1388,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -1367,6 +1438,9 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/sbin/ld.lld"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/ld.lld"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/ld.lld"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/ld.lld"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/ld.lld"
       - "/usr/local/sbin/ld.lld"
       - "/usr/local/bin/ld.lld"
@@ -1376,6 +1450,7 @@ events:
       - "/usr/games/ld.lld"
       - "/usr/local/games/ld.lld"
       - "/usr/lib/wsl/lib/ld.lld"
+      - "/mnt/d/Program Files/Microsoft VS Code/ld.lld"
       - "/mnt/c/vcpkg/ld.lld"
       - "/mnt/d/Program Files/Python314/Scripts/ld.lld"
       - "/mnt/d/Program Files/Python314/ld.lld"
@@ -1426,6 +1501,9 @@ events:
     found: "/usr/sbin/ld"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -1436,6 +1514,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -1552,6 +1631,9 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1561,6 +1643,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -1611,6 +1694,9 @@ events:
     found: "/usr/sbin/llvm-nm"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -1621,6 +1707,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -1737,6 +1824,9 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1746,6 +1836,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -1796,6 +1887,9 @@ events:
     found: "/usr/sbin/llvm-objdump"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -1806,6 +1900,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -1922,6 +2017,9 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -1931,6 +2029,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -1981,6 +2080,9 @@ events:
     found: "/usr/sbin/llvm-objcopy"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -1991,6 +2093,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -2107,6 +2210,9 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2116,6 +2222,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -2166,6 +2273,9 @@ events:
     found: "/usr/sbin/llvm-readelf"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -2176,6 +2286,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -2292,6 +2403,9 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2301,6 +2415,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -2351,6 +2466,9 @@ events:
     found: "/usr/sbin/llvm-dlltool"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -2361,6 +2479,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -2477,6 +2596,9 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2486,6 +2608,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -2536,6 +2659,9 @@ events:
     found: "/usr/sbin/llvm-addr2line"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -2546,6 +2672,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -2661,6 +2788,9 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2670,6 +2800,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -2719,6 +2850,9 @@ events:
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/sbin/tapi"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/tapi"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/tapi"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
@@ -2728,6 +2862,7 @@ events:
       - "/usr/games/tapi"
       - "/usr/local/games/tapi"
       - "/usr/lib/wsl/lib/tapi"
+      - "/mnt/d/Program Files/Microsoft VS Code/tapi"
       - "/mnt/c/vcpkg/tapi"
       - "/mnt/d/Program Files/Python314/Scripts/tapi"
       - "/mnt/d/Program Files/Python314/tapi"
@@ -2778,6 +2913,9 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -2788,6 +2926,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -2907,6 +3046,9 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -2915,6 +3057,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -2965,6 +3108,9 @@ events:
     searched_directories:
       - "/usr/bin/llvm-ar-22.1"
       - "/usr/sbin/llvm-ar-22.1"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ar-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ar-22.1"
       - "/usr/local/sbin/llvm-ar-22.1"
       - "/usr/local/bin/llvm-ar-22.1"
@@ -2973,6 +3119,7 @@ events:
       - "/usr/games/llvm-ar-22.1"
       - "/usr/local/games/llvm-ar-22.1"
       - "/usr/lib/wsl/lib/llvm-ar-22.1"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ar-22.1"
       - "/mnt/c/vcpkg/llvm-ar-22.1"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ar-22.1"
       - "/mnt/d/Program Files/Python314/llvm-ar-22.1"
@@ -3022,6 +3169,9 @@ events:
       - "/usr/bin/core_perl/llvm-ar-22.1"
       - "/usr/bin/llvm-ar-22"
       - "/usr/sbin/llvm-ar-22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ar-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ar-22"
       - "/usr/local/sbin/llvm-ar-22"
       - "/usr/local/bin/llvm-ar-22"
@@ -3030,6 +3180,7 @@ events:
       - "/usr/games/llvm-ar-22"
       - "/usr/local/games/llvm-ar-22"
       - "/usr/lib/wsl/lib/llvm-ar-22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ar-22"
       - "/mnt/c/vcpkg/llvm-ar-22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ar-22"
       - "/mnt/d/Program Files/Python314/llvm-ar-22"
@@ -3079,6 +3230,9 @@ events:
       - "/usr/bin/core_perl/llvm-ar-22"
       - "/usr/bin/llvm-ar22"
       - "/usr/sbin/llvm-ar22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ar22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ar22"
       - "/usr/local/sbin/llvm-ar22"
       - "/usr/local/bin/llvm-ar22"
@@ -3087,6 +3241,7 @@ events:
       - "/usr/games/llvm-ar22"
       - "/usr/local/games/llvm-ar22"
       - "/usr/lib/wsl/lib/llvm-ar22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ar22"
       - "/mnt/c/vcpkg/llvm-ar22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ar22"
       - "/mnt/d/Program Files/Python314/llvm-ar22"
@@ -3137,6 +3292,9 @@ events:
     found: "/usr/bin/llvm-ar"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -3147,6 +3305,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -3266,6 +3425,9 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -3274,6 +3436,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -3324,6 +3487,9 @@ events:
     searched_directories:
       - "/usr/bin/llvm-ranlib-22.1"
       - "/usr/sbin/llvm-ranlib-22.1"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ranlib-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ranlib-22.1"
       - "/usr/local/sbin/llvm-ranlib-22.1"
       - "/usr/local/bin/llvm-ranlib-22.1"
@@ -3332,6 +3498,7 @@ events:
       - "/usr/games/llvm-ranlib-22.1"
       - "/usr/local/games/llvm-ranlib-22.1"
       - "/usr/lib/wsl/lib/llvm-ranlib-22.1"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ranlib-22.1"
       - "/mnt/c/vcpkg/llvm-ranlib-22.1"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ranlib-22.1"
       - "/mnt/d/Program Files/Python314/llvm-ranlib-22.1"
@@ -3381,6 +3548,9 @@ events:
       - "/usr/bin/core_perl/llvm-ranlib-22.1"
       - "/usr/bin/llvm-ranlib-22"
       - "/usr/sbin/llvm-ranlib-22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ranlib-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ranlib-22"
       - "/usr/local/sbin/llvm-ranlib-22"
       - "/usr/local/bin/llvm-ranlib-22"
@@ -3389,6 +3559,7 @@ events:
       - "/usr/games/llvm-ranlib-22"
       - "/usr/local/games/llvm-ranlib-22"
       - "/usr/lib/wsl/lib/llvm-ranlib-22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ranlib-22"
       - "/mnt/c/vcpkg/llvm-ranlib-22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ranlib-22"
       - "/mnt/d/Program Files/Python314/llvm-ranlib-22"
@@ -3438,6 +3609,9 @@ events:
       - "/usr/bin/core_perl/llvm-ranlib-22"
       - "/usr/bin/llvm-ranlib22"
       - "/usr/sbin/llvm-ranlib22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ranlib22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ranlib22"
       - "/usr/local/sbin/llvm-ranlib22"
       - "/usr/local/bin/llvm-ranlib22"
@@ -3446,6 +3620,7 @@ events:
       - "/usr/games/llvm-ranlib22"
       - "/usr/local/games/llvm-ranlib22"
       - "/usr/lib/wsl/lib/llvm-ranlib22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ranlib22"
       - "/mnt/c/vcpkg/llvm-ranlib22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ranlib22"
       - "/mnt/d/Program Files/Python314/llvm-ranlib22"
@@ -3496,6 +3671,9 @@ events:
     found: "/usr/bin/llvm-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -3506,6 +3684,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -3625,6 +3804,9 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -3633,6 +3815,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -3683,6 +3866,9 @@ events:
     searched_directories:
       - "/usr/bin/clang-scan-deps-22.1"
       - "/usr/sbin/clang-scan-deps-22.1"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang-scan-deps-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang-scan-deps-22.1"
       - "/usr/local/sbin/clang-scan-deps-22.1"
       - "/usr/local/bin/clang-scan-deps-22.1"
@@ -3691,6 +3877,7 @@ events:
       - "/usr/games/clang-scan-deps-22.1"
       - "/usr/local/games/clang-scan-deps-22.1"
       - "/usr/lib/wsl/lib/clang-scan-deps-22.1"
+      - "/mnt/d/Program Files/Microsoft VS Code/clang-scan-deps-22.1"
       - "/mnt/c/vcpkg/clang-scan-deps-22.1"
       - "/mnt/d/Program Files/Python314/Scripts/clang-scan-deps-22.1"
       - "/mnt/d/Program Files/Python314/clang-scan-deps-22.1"
@@ -3740,6 +3927,9 @@ events:
       - "/usr/bin/core_perl/clang-scan-deps-22.1"
       - "/usr/bin/clang-scan-deps-22"
       - "/usr/sbin/clang-scan-deps-22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang-scan-deps-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang-scan-deps-22"
       - "/usr/local/sbin/clang-scan-deps-22"
       - "/usr/local/bin/clang-scan-deps-22"
@@ -3748,6 +3938,7 @@ events:
       - "/usr/games/clang-scan-deps-22"
       - "/usr/local/games/clang-scan-deps-22"
       - "/usr/lib/wsl/lib/clang-scan-deps-22"
+      - "/mnt/d/Program Files/Microsoft VS Code/clang-scan-deps-22"
       - "/mnt/c/vcpkg/clang-scan-deps-22"
       - "/mnt/d/Program Files/Python314/Scripts/clang-scan-deps-22"
       - "/mnt/d/Program Files/Python314/clang-scan-deps-22"
@@ -3797,6 +3988,9 @@ events:
       - "/usr/bin/core_perl/clang-scan-deps-22"
       - "/usr/bin/clang-scan-deps22"
       - "/usr/sbin/clang-scan-deps22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang-scan-deps22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang-scan-deps22"
       - "/usr/local/sbin/clang-scan-deps22"
       - "/usr/local/bin/clang-scan-deps22"
@@ -3805,6 +3999,7 @@ events:
       - "/usr/games/clang-scan-deps22"
       - "/usr/local/games/clang-scan-deps22"
       - "/usr/lib/wsl/lib/clang-scan-deps22"
+      - "/mnt/d/Program Files/Microsoft VS Code/clang-scan-deps22"
       - "/mnt/c/vcpkg/clang-scan-deps22"
       - "/mnt/d/Program Files/Python314/Scripts/clang-scan-deps22"
       - "/mnt/d/Program Files/Python314/clang-scan-deps22"
@@ -3855,6 +4050,9 @@ events:
     found: "/usr/bin/clang-scan-deps"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -3865,6 +4063,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -3979,6 +4178,9 @@ events:
     names:
       - "clang++"
     candidate_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -3989,6 +4191,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -4037,12 +4240,18 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang++"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang++"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang++"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang++"
       - "/usr/local/sbin/clang++"
       - "/usr/local/bin/clang++"
     found: "/usr/sbin/clang++"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -4053,6 +4262,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -4174,6 +4384,9 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -4184,6 +4397,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -4288,7 +4502,7 @@ events:
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /usr/sbin/clang++ 
-      Build flags: -stdlib=libc++
+      Build flags: 
       Id flags:  
       
       The output was:
@@ -4325,6 +4539,9 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -4333,6 +4550,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -4383,6 +4601,9 @@ events:
     searched_directories:
       - "/usr/bin/llvm-ar-22.1"
       - "/usr/sbin/llvm-ar-22.1"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ar-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22.1"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ar-22.1"
       - "/usr/local/sbin/llvm-ar-22.1"
       - "/usr/local/bin/llvm-ar-22.1"
@@ -4391,6 +4612,7 @@ events:
       - "/usr/games/llvm-ar-22.1"
       - "/usr/local/games/llvm-ar-22.1"
       - "/usr/lib/wsl/lib/llvm-ar-22.1"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ar-22.1"
       - "/mnt/c/vcpkg/llvm-ar-22.1"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ar-22.1"
       - "/mnt/d/Program Files/Python314/llvm-ar-22.1"
@@ -4440,6 +4662,9 @@ events:
       - "/usr/bin/core_perl/llvm-ar-22.1"
       - "/usr/bin/llvm-ar-22"
       - "/usr/sbin/llvm-ar-22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ar-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar-22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ar-22"
       - "/usr/local/sbin/llvm-ar-22"
       - "/usr/local/bin/llvm-ar-22"
@@ -4448,6 +4673,7 @@ events:
       - "/usr/games/llvm-ar-22"
       - "/usr/local/games/llvm-ar-22"
       - "/usr/lib/wsl/lib/llvm-ar-22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ar-22"
       - "/mnt/c/vcpkg/llvm-ar-22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ar-22"
       - "/mnt/d/Program Files/Python314/llvm-ar-22"
@@ -4497,6 +4723,9 @@ events:
       - "/usr/bin/core_perl/llvm-ar-22"
       - "/usr/bin/llvm-ar22"
       - "/usr/sbin/llvm-ar22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ar22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ar22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ar22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ar22"
       - "/usr/local/sbin/llvm-ar22"
       - "/usr/local/bin/llvm-ar22"
@@ -4505,6 +4734,7 @@ events:
       - "/usr/games/llvm-ar22"
       - "/usr/local/games/llvm-ar22"
       - "/usr/lib/wsl/lib/llvm-ar22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ar22"
       - "/mnt/c/vcpkg/llvm-ar22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ar22"
       - "/mnt/d/Program Files/Python314/llvm-ar22"
@@ -4555,6 +4785,9 @@ events:
     found: "/usr/bin/llvm-ar"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -4565,6 +4798,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -4684,6 +4918,9 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -4692,6 +4929,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -4742,6 +4980,9 @@ events:
     searched_directories:
       - "/usr/bin/llvm-ranlib-22.1"
       - "/usr/sbin/llvm-ranlib-22.1"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ranlib-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22.1"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ranlib-22.1"
       - "/usr/local/sbin/llvm-ranlib-22.1"
       - "/usr/local/bin/llvm-ranlib-22.1"
@@ -4750,6 +4991,7 @@ events:
       - "/usr/games/llvm-ranlib-22.1"
       - "/usr/local/games/llvm-ranlib-22.1"
       - "/usr/lib/wsl/lib/llvm-ranlib-22.1"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ranlib-22.1"
       - "/mnt/c/vcpkg/llvm-ranlib-22.1"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ranlib-22.1"
       - "/mnt/d/Program Files/Python314/llvm-ranlib-22.1"
@@ -4799,6 +5041,9 @@ events:
       - "/usr/bin/core_perl/llvm-ranlib-22.1"
       - "/usr/bin/llvm-ranlib-22"
       - "/usr/sbin/llvm-ranlib-22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ranlib-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib-22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ranlib-22"
       - "/usr/local/sbin/llvm-ranlib-22"
       - "/usr/local/bin/llvm-ranlib-22"
@@ -4807,6 +5052,7 @@ events:
       - "/usr/games/llvm-ranlib-22"
       - "/usr/local/games/llvm-ranlib-22"
       - "/usr/lib/wsl/lib/llvm-ranlib-22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ranlib-22"
       - "/mnt/c/vcpkg/llvm-ranlib-22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ranlib-22"
       - "/mnt/d/Program Files/Python314/llvm-ranlib-22"
@@ -4856,6 +5102,9 @@ events:
       - "/usr/bin/core_perl/llvm-ranlib-22"
       - "/usr/bin/llvm-ranlib22"
       - "/usr/sbin/llvm-ranlib22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/llvm-ranlib22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/llvm-ranlib22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/llvm-ranlib22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/llvm-ranlib22"
       - "/usr/local/sbin/llvm-ranlib22"
       - "/usr/local/bin/llvm-ranlib22"
@@ -4864,6 +5113,7 @@ events:
       - "/usr/games/llvm-ranlib22"
       - "/usr/local/games/llvm-ranlib22"
       - "/usr/lib/wsl/lib/llvm-ranlib22"
+      - "/mnt/d/Program Files/Microsoft VS Code/llvm-ranlib22"
       - "/mnt/c/vcpkg/llvm-ranlib22"
       - "/mnt/d/Program Files/Python314/Scripts/llvm-ranlib22"
       - "/mnt/d/Program Files/Python314/llvm-ranlib22"
@@ -4914,6 +5164,9 @@ events:
     found: "/usr/bin/llvm-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -4924,6 +5177,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -5043,6 +5297,9 @@ events:
     candidate_directories:
       - "/usr/bin/"
       - "/usr/sbin/"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
@@ -5051,6 +5308,7 @@ events:
       - "/usr/games/"
       - "/usr/local/games/"
       - "/usr/lib/wsl/lib/"
+      - "/mnt/d/Program Files/Microsoft VS Code/"
       - "/mnt/c/vcpkg/"
       - "/mnt/d/Program Files/Python314/Scripts/"
       - "/mnt/d/Program Files/Python314/"
@@ -5101,6 +5359,9 @@ events:
     searched_directories:
       - "/usr/bin/clang-scan-deps-22.1"
       - "/usr/sbin/clang-scan-deps-22.1"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang-scan-deps-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22.1"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22.1"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang-scan-deps-22.1"
       - "/usr/local/sbin/clang-scan-deps-22.1"
       - "/usr/local/bin/clang-scan-deps-22.1"
@@ -5109,6 +5370,7 @@ events:
       - "/usr/games/clang-scan-deps-22.1"
       - "/usr/local/games/clang-scan-deps-22.1"
       - "/usr/lib/wsl/lib/clang-scan-deps-22.1"
+      - "/mnt/d/Program Files/Microsoft VS Code/clang-scan-deps-22.1"
       - "/mnt/c/vcpkg/clang-scan-deps-22.1"
       - "/mnt/d/Program Files/Python314/Scripts/clang-scan-deps-22.1"
       - "/mnt/d/Program Files/Python314/clang-scan-deps-22.1"
@@ -5158,6 +5420,9 @@ events:
       - "/usr/bin/core_perl/clang-scan-deps-22.1"
       - "/usr/bin/clang-scan-deps-22"
       - "/usr/sbin/clang-scan-deps-22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang-scan-deps-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps-22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps-22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang-scan-deps-22"
       - "/usr/local/sbin/clang-scan-deps-22"
       - "/usr/local/bin/clang-scan-deps-22"
@@ -5166,6 +5431,7 @@ events:
       - "/usr/games/clang-scan-deps-22"
       - "/usr/local/games/clang-scan-deps-22"
       - "/usr/lib/wsl/lib/clang-scan-deps-22"
+      - "/mnt/d/Program Files/Microsoft VS Code/clang-scan-deps-22"
       - "/mnt/c/vcpkg/clang-scan-deps-22"
       - "/mnt/d/Program Files/Python314/Scripts/clang-scan-deps-22"
       - "/mnt/d/Program Files/Python314/clang-scan-deps-22"
@@ -5215,6 +5481,9 @@ events:
       - "/usr/bin/core_perl/clang-scan-deps-22"
       - "/usr/bin/clang-scan-deps22"
       - "/usr/sbin/clang-scan-deps22"
+      - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin/clang-scan-deps22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/clang-scan-deps22"
+      - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/clang-scan-deps22"
       - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/clang-scan-deps22"
       - "/usr/local/sbin/clang-scan-deps22"
       - "/usr/local/bin/clang-scan-deps22"
@@ -5223,6 +5492,7 @@ events:
       - "/usr/games/clang-scan-deps22"
       - "/usr/local/games/clang-scan-deps22"
       - "/usr/lib/wsl/lib/clang-scan-deps22"
+      - "/mnt/d/Program Files/Microsoft VS Code/clang-scan-deps22"
       - "/mnt/c/vcpkg/clang-scan-deps22"
       - "/mnt/d/Program Files/Python314/Scripts/clang-scan-deps22"
       - "/mnt/d/Program Files/Python314/clang-scan-deps22"
@@ -5273,6 +5543,9 @@ events:
     found: "/usr/bin/clang-scan-deps"
     search_context:
       ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
         - "/usr/local/sbin"
         - "/usr/local/bin"
@@ -5283,6 +5556,7 @@ events:
         - "/usr/games"
         - "/usr/local/games"
         - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
         - "/mnt/c/vcpkg"
         - "/mnt/d/Program Files/Python314/Scripts/"
         - "/mnt/d/Program Files/Python314/"
@@ -5386,22 +5660,22 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my"
-      binary: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my"
+      source: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT"
+      binary: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: "-stdlib=libc++"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my'
+        Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT'
         
-        Run Build Command(s): /usr/sbin/ninja -v cmTC_f845e
-        [1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_b5d67
+        [1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang version 22.1.3
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -5413,7 +5687,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+         "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 22.1.3 based upon LLVM 22.1.3 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -5423,7 +5697,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/sbin/clang  -stdlib=libc++ -v -Wl,-v CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -o cmTC_f845e   && :
+        [2/2] : && /usr/sbin/clang  -v -Wl,-v CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -o cmTC_b5d67   && :
         clang version 22.1.3
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -5434,7 +5708,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f845e /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b5d67 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.46
         
       exitCode: 0
@@ -5468,10 +5742,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my']
+        ignore line: [Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_f845e]
-        ignore line: [[1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_b5d67]
+        ignore line: [[1/2] /usr/sbin/clang   -v -MD -MT CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 22.1.3]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -5486,7 +5760,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-3rh2my -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/usr/bin/clang-22" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-TAu2tT -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 22.1.3 based upon LLVM 22.1.3 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -5496,7 +5770,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/sbin/clang  -stdlib=libc++ -v -Wl -v CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -o cmTC_f845e   && :]
+        ignore line: [[2/2] : && /usr/sbin/clang  -v -Wl -v CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -o cmTC_b5d67   && :]
         ignore line: [clang version 22.1.3]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -5510,7 +5784,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f845e /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b5d67 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -5521,7 +5795,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f845e] ==> ignore
+          arg [cmTC_b5d67] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -5532,7 +5806,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_f845e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_b5d67.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -5581,23 +5855,23 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6"
-      binary: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6"
+      source: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh"
+      binary: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
-      CMAKE_CXX_FLAGS: "-stdlib=libc++"
+      CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
-      CMAKE_EXE_LINKER_FLAGS: "-stdlib=libc++"
+      CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6'
+        Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh'
         
-        Run Build Command(s): /usr/sbin/ninja -v cmTC_98bcb
-        [1/2] /usr/sbin/clang++   -stdlib=libc++    -v -MD -MT CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_7fcb3
+        [1/2] /usr/sbin/clang++   -v -MD -MT CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang version 22.1.3
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -5609,18 +5883,20 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6 -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6 -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../include/c++/v1 -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 22.1.3 based upon LLVM 22.1.3 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
         #include "..." search starts here:
         #include <...> search starts here:
-         /usr/bin/../include/c++/v1
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward
          /usr/lib/clang/22/include
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/sbin/clang++ -stdlib=libc++ -stdlib=libc++ -v -Wl,-v CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98bcb   && :
+        [2/2] : && /usr/sbin/clang++  -v -Wl,-v CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7fcb3   && :
         clang version 22.1.3
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -5631,7 +5907,7 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98bcb /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7fcb3 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.46
         
       exitCode: 0
@@ -5645,16 +5921,20 @@ events:
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/usr/bin/../include/c++/v1]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
           add: [/usr/lib/clang/22/include]
           add: [/usr/local/include]
           add: [/usr/include]
         end of search list found
-        collapse include dir [/usr/bin/../include/c++/v1] ==> [/usr/include/c++/v1]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1] ==> [/usr/include/c++/15.2.1]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu] ==> [/usr/include/c++/15.2.1/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward] ==> [/usr/include/c++/15.2.1/backward]
         collapse include dir [/usr/lib/clang/22/include] ==> [/usr/lib/clang/22/include]
         collapse include dir [/usr/local/include] ==> [/usr/local/include]
         collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/include/c++/v1;/usr/lib/clang/22/include;/usr/local/include;/usr/include]
+        implicit include dirs: [/usr/include/c++/15.2.1;/usr/include/c++/15.2.1/x86_64-pc-linux-gnu;/usr/include/c++/15.2.1/backward;/usr/lib/clang/22/include;/usr/local/include;/usr/include]
       
       
   -
@@ -5667,10 +5947,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6']
+        ignore line: [Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_98bcb]
-        ignore line: [[1/2] /usr/sbin/clang++   -stdlib=libc++    -v -MD -MT CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/sbin/ninja -v cmTC_7fcb3]
+        ignore line: [[1/2] /usr/sbin/clang++   -v -MD -MT CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 22.1.3]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -5685,18 +5965,20 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6 -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-VapPs6 -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../include/c++/v1 -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh -v -fcoverage-compilation-dir=/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-Nmh7dh -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 22.1.3 based upon LLVM 22.1.3 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/bin/../include/c++/v1]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../include/c++/15.2.1/backward]
         ignore line: [ /usr/lib/clang/22/include]
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/sbin/clang++ -stdlib=libc++ -stdlib=libc++ -v -Wl -v CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98bcb   && :]
+        ignore line: [[2/2] : && /usr/sbin/clang++  -v -Wl -v CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7fcb3   && :]
         ignore line: [clang version 22.1.3]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -5710,7 +5992,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98bcb /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7fcb3 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [--hash-style=gnu] ==> ignore
           arg [--build-id] ==> ignore
@@ -5721,7 +6003,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_98bcb] ==> ignore
+          arg [cmTC_7fcb3] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -5732,8 +6014,8 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_98bcb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-          arg [-lc++] ==> lib [c++]
+          arg [CMakeFiles/cmTC_7fcb3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
           arg [-lgcc] ==> lib [gcc]
@@ -5754,7 +6036,7 @@ events:
         collapse library dir [/usr/lib64] ==> [/usr/lib64]
         collapse library dir [/lib] ==> [/lib]
         collapse library dir [/usr/lib] ==> [/usr/lib]
-        implicit libs: [c++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
         implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o;/usr/lib64/crtn.o]
         implicit dirs: [/usr/lib64/gcc/x86_64-pc-linux-gnu/15.2.1;/usr/lib64;/lib64;/lib;/usr/lib]
         implicit fwks: []
@@ -5770,4 +6052,370 @@ events:
     message: |
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/lib/cmake/GTest/GTestConfig.cmake:39 (find_dependency)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:345 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    directories:
+      source: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-teLTR3"
+      binary: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-teLTR3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-teLTR3'
+        
+        Run Build Command(s): /usr/sbin/ninja -v cmTC_f0fb2
+        [1/2] /usr/sbin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_f0fb2.dir/src.c.o -MF CMakeFiles/cmTC_f0fb2.dir/src.c.o.d -o CMakeFiles/cmTC_f0fb2.dir/src.c.o -c /home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/CMakeScratch/TryCompile-teLTR3/src.c
+        [2/2] : && /usr/sbin/clang   CMakeFiles/cmTC_f0fb2.dir/src.c.o -o cmTC_f0fb2   && :
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGTest.cmake:345 (find_package)"
+      - "CMakeLists.txt:7 (find_package)"
+    name: "GTest"
+    configs:
+      -
+        filename: "GTest.cps"
+        kind: "cps"
+      -
+        filename: "gtest.cps"
+        kind: "cps"
+      -
+        filename: "GTestConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "gtest-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "GTest"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/Code/TemplatePrimer/build/clang-debug/CMakeFiles/pkgRedirects/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/cmake/GTest/GTestConfig.cmake"
+      mode: "config"
+      version: "1.17.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/Vily/.vscode-server/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/Vily/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/Vily/.vscode-server/bin/560a9dba96f961efea7b1612916f89e5d5d4d679/bin/remote-cli"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/d/Program Files/Microsoft VS Code"
+        - "/mnt/c/vcpkg"
+        - "/mnt/d/Program Files/Python314/Scripts/"
+        - "/mnt/d/Program Files/Python314/"
+        - "/mnt/d/VulkanSDK/1.4.313.2/Bin"
+        - "/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.7.6-hotspot/bin"
+        - "/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler"
+        - "/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/"
+        - "/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL"
+        - "/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL"
+        - "/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT"
+        - "/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Intel/WiFi/bin/"
+        - "/mnt/c/Program Files/Common Files/Intel/WirelessCommon/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/Java/jdk1.8.0_192/bin"
+        - "/mnt/c/Program Files/Java/jdk1.8.0_192/jre/bin"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files (x86)/Calibre2/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64"
+        - "/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/c/msys64/clang64/bin"
+        - "/mnt/c/msys64/usr/bin"
+        - "/mnt/d/Program Files/Python314/Scripts"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.7.6-hotspot/bin"
+        - "/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler"
+        - "/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS"
+        - "/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS"
+        - "/mnt/c/Windows/system32"
+        - "/mnt/c/Windows"
+        - "/mnt/c/Windows/System32/Wbem"
+        - "/mnt/c/Windows/System32/WindowsPowerShell/v1.0"
+        - "/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL"
+        - "/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL"
+        - "/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT"
+        - "/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT"
+        - "/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common"
+        - "/mnt/c/Program Files/Intel/WiFi/bin"
+        - "/mnt/c/Program Files/Common Files/Intel/WirelessCommon"
+        - "/mnt/c/Program Files/dotnet"
+        - "/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0"
+        - "/mnt/c/WINDOWS/System32/OpenSSH"
+        - "/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64"
+        - "/mnt/c/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64"
+        - "/mnt/c/Program Files/Java/jdk1.8.0_192/bin"
+        - "/mnt/c/Program Files/Java/jdk1.8.0_192/jre/bin"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0"
+        - "/mnt/c/WINDOWS/System32/OpenSSH"
+        - "/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn"
+        - "/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64"
+        - "/mnt/c/vcpkg"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/Vily/AppData/Local/Python/bin"
+        - "/mnt/d/Program Files/Microsoft VS Code/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
 ...

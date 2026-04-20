@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/Vily/Code/TemplatePrimer/build/asan",
+	"dir-cur-src" : "/home/Vily/Code/TemplatePrimer",
+	"dir-top-bld" : "/home/Vily/Code/TemplatePrimer/build/asan",
+	"dir-top-src" : "/home/Vily/Code/TemplatePrimer",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/home/Vily/Code/TemplatePrimer/include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/Vily/Code/TemplatePrimer/build/asan/CMakeFiles/app.dir",
+	"sources" : 
+	{
+		"CMakeFiles/app.dir/test/test.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/Vily/Code/TemplatePrimer/test/test.cpp"
+		}
+	}
+}

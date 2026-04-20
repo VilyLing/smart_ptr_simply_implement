@@ -1,3 +1,4 @@
+#include "Unique_ptr.h"
 #include <iostream>
 #include <memory>
 int main() {
@@ -8,7 +9,7 @@ int main() {
     #endif    
 
     
-
-
+    std::unique_ptr<int > uptr;
+    uptr.get_deleter();
     return 0;
  }

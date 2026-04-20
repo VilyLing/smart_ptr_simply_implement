@@ -1,0 +1,4 @@
+/home/Vily/Code/TemplatePrimer/build/asan/CMakeFiles/app.dir
+/home/Vily/Code/TemplatePrimer/build/asan/CMakeFiles/test.dir
+/home/Vily/Code/TemplatePrimer/build/asan/CMakeFiles/edit_cache.dir
+/home/Vily/Code/TemplatePrimer/build/asan/CMakeFiles/rebuild_cache.dir
