@@ -185,6 +185,7 @@ struct Node {
     ~Node() { /* 便于观察 */ }
 };
 TEST(WeakPointerTest, BreakCycle) {
+    //TODO now is error. Wait to fix it.
     auto a = Shared_Pointer<Node>(new Node{1});
     auto b = Shared_Pointer<Node>(new Node{2});
     a->next = b;

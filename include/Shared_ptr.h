@@ -4,6 +4,9 @@
 #include <algorithm>
 #include <atomic>
 #include <cstddef>
+#include <exception>
+#include <memory>
+#include <print>
 #include <utility>
 struct control_block_super {
   using u32_int = unsigned int;
@@ -19,12 +22,14 @@ struct control_block_super {
   void release_ref() {
     if (--strong_ == 0) {
       destroy_res();
-      destroy_self();
+      if (weak_ == 0) {
+        destroy_self();
+      }
     }
   }
 
   void release_self() {
-    if (strong_ == 0 && --weak_ == 0) {
+    if (--weak_ == 0 && strong_ == 0) {
       destroy_self();
     }
   }
@@ -96,8 +101,18 @@ public:
 
   template <typename Deleter = Default_Deleter<T>>
   Shared_Pointer(T *ptr = nullptr, Deleter d = Default_Deleter<T>())
-      : cb_(ptr ? new control_block_final<T, Deleter>(ptr, d) : nullptr) {}
-  Shared_Pointer(T* ptr = nullptr):Shared_Pointer(ptr,Default_Delete<T>){}
+      : cb_(nullptr) {
+        try {
+        if (ptr) {
+          cb_ = new control_block_final<T, Deleter>(ptr,d);
+        }
+        } catch (std::exception& e) {
+          std::println("[ERROR]:{}",e.what());
+          std::destroy_at(cb_);
+          cb_ = nullptr;
+        }
+      }
+  explicit Shared_Pointer(T* ptr = nullptr):Shared_Pointer(ptr,Default_Delete<T>){}
   Shared_Pointer(const Shared_Pointer &rhs) : cb_(rhs.cb_) {
     if (cb_) {
       cb_->add_ref();
@@ -135,7 +150,7 @@ public:
   explicit operator bool() const {return cb_ !=nullptr;}
   bool operator!() const {return get() == nullptr;}
   bool operator==(const Shared_Pointer& rhs) const{
-    return cb_ == rhs.cb_;
+    return get() == rhs.get();
   }
   bool operator==(std::nullptr_t) const{
     return cb_ == nullptr;
@@ -156,6 +171,7 @@ private:
   }
 };
 
+//TODO : bug inside - weak reference counting need to fix
 template <typename T> class weak_pointer {
   friend class Shared_Pointer<T>;
 
