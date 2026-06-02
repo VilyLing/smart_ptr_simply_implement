@@ -108,11 +108,11 @@ public:
         }
         } catch (std::exception& e) {
           std::println("[ERROR]:{}",e.what());
-          std::destroy_at(cb_);
-          cb_ = nullptr;
+          //std::destroy_at(cb_);
+          //cb_ = nullptr;
         }
       }
-  explicit Shared_Pointer(T* ptr = nullptr):Shared_Pointer(ptr,Default_Delete<T>){}
+  //explicit Shared_Pointer(T* ptr = nullptr):Shared_Pointer(ptr,Default_Delete<T>){}
   Shared_Pointer(const Shared_Pointer &rhs) : cb_(rhs.cb_) {
     if (cb_) {
       cb_->add_ref();
